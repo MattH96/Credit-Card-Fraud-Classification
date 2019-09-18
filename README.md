@@ -1,6 +1,8 @@
 # Credit-Card-Fraud-Classification
 This notebook covers credit card fraud classification.
 
+NOTE: The dataset is too large to be uploaded here, but you can get it from https://www.kaggle.com/mlg-ulb/creditcardfraud
+
 It's split into 5 sections:
 1) Data preparation and interpretation
 2) Data preprocessing

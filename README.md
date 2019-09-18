@@ -26,6 +26,7 @@ This has a great effect on the correlation between features and class, comparing
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/2.png?raw=true "Correlation matrix")
 
 Next the outliers are removed from the fraudulent datapoints to increase model accuracy.
+
 Before:
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/3.png?raw=true "Data with outliers")
@@ -49,7 +50,7 @@ The plots show that while mostly separated there is come overlap, with the SMOTE
 ##### Machine learning classification
 NOTE: Since the data is now equally distributed between classes, the standard accuracy metric is perfectly acceptable (this is not the case for imbalanced datasets).
 
-The data is modelled and the best outcome KNN at 99.87% is graphed showing a nice result, all fraudulent cases are correctly classified.
+The data is modelled and the best outcome KNN achieves 99.87% accuracy and is graphed showing a nice result, all fraudulent cases are correctly classified.
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/7.png?raw=true "KNN confusion matrix")
 
@@ -59,8 +60,11 @@ The KNN model being the best predicter is then optimised increasing the accuracy
 
 ##### Neural network classification
 A neural network model is created, care has been taken to make the model complex enough to distinguish the large and varied dataset produced, I found underfitting easy to achieve.
-Unfortunately even when using a large model, using my limited computing power taking approximately 45 minutes to train I was only able to produce a 99.7% accuracy score, producing the following confusion matrix:
+Unfortunately even when using a large model which with my limited computing power takes 45 minutes to train I was only able to produce a 99.7% accuracy score, producing the following confusion matrix:
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/9.png?raw=true "Neural net confusion matrix")
 
-Somewhat dissapointing given the work that went into the neural net.
+Somewhat dissapointing given the extra work that went into the neural net. The confusion matrix also shows that some of the fraudulent cases are missed by the classifier.
+
+#### Conclusion
+In conclusion a well optimised KNN algorithm approach proved to be by far the best predictor of credit card fraud using a large SMOTE balanced dataset.

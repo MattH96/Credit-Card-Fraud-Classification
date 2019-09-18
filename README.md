@@ -7,6 +7,7 @@ It's split into 5 sections:
 3) Exploratory data analysis
 4) Machine learning classification
 5) Neural network classification
+6) Conclusion
 
 This README covers the best methods used in this notebook, though more are covered.
 
@@ -58,3 +59,8 @@ The KNN model being the best predicter is then optimised increasing the accuracy
 
 ##### Neural network classification
 A neural network model is created, care has been taken to make the model complex enough to distinguish the large and varied dataset produced, I found underfitting easy to achieve.
+Unfortunately even when using a large model, using my limited computing power taking approximately 45 minutes to train I was only able to produce a 99.7% accuracy score, producing the following confusion matrix:
+
+![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/9.png?raw=true "Neural net confusion matrix")
+
+Somewhat dissapointing given the work that went into the neural net.

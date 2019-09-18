@@ -43,6 +43,8 @@ Next the data is dimensionally reduced and plotted to see differentiation betwee
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/6.png?raw=true "Data plots")
 
+The plots show that while mostly separated there is come overlap, with the SMOTE data magnifying this.
+
 ##### Machine learning classification
 NOTE: Since the data is now equally distributed between classes, the standard accuracy metric is perfectly acceptable (this is not the case for imbalanced datasets).
 

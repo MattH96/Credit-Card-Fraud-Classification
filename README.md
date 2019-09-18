@@ -68,3 +68,5 @@ Somewhat dissapointing given the extra work that went into the neural net. The c
 
 #### Conclusion
 In conclusion a well optimised KNN algorithm approach proved to be by far the best predictor of credit card fraud using a large SMOTE balanced dataset.
+
+Check out the notebook to clear any details up or make use of the implementations.

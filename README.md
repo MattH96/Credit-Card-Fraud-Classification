@@ -34,13 +34,12 @@ After:
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/4.png?raw=true "Data outliers removed")
 
 ##### Exploratory data analysis
-Features of the data are explored, startin with higher order correlations
+Features of the data are explored, starting with higher order correlations.
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/5.png?raw=true "Higer order correlations")
 
 Revealing some quadratic relationships to be tested with models later on.
-Next the data is dimensionally reduced and plotted to see differentiation between fraud and non-fraud cases
-Features of the data are explored, startin with higher order correlations
+Next the data is dimensionally reduced and plotted to see differentiation between fraud and non-fraud cases.
 
 ![Alt text](https://github.com/MattH96/Credit-Card-Fraud-Classification/blob/master/Images/6.png?raw=true "Data plots")
 
